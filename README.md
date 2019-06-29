@@ -18,7 +18,8 @@ import torch
 ...
 
 model = Generator()
-model.load_state_dict(torch.load('mnist_generator.pth'))
+state = torch.load('mnist_generator.pth')
+model.load_state_dict(state)
 model.eval()
 
 ...
