@@ -4,9 +4,9 @@ PyTorch implementation of [Generative Adversarial Networks](https://arxiv.org/ab
 
 ### Loss
 
-Binary Cross Entropy loss was used to train both generator and discriminator. Loss curve for first 200 epochs is given below.
+Binary Cross Entropy loss was used to train both generator and discriminator. Generator was trained my maximising discriminators probability of being real on fake data instead of other way round, because as mentioned in the paper, it provides stronger gradients early.
 <div align='center'>
-   <img src="img/loss.png" alt="loss_curve" align='center' width="400"/>
+   <img src="img/loss (1).png" alt="loss_curve" align='center' width="400"/>
 </div>
 
 ### Model
