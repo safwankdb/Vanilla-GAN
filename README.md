@@ -17,7 +17,7 @@ The training of the generator and discriminator networks is based on the followi
 Binary Cross Entropy loss was used to train both generator and discriminator. Generator was trained my maximising discriminators probability of being real on fake data instead of other way round, because as mentioned in the paper, it provides stronger gradients early.
 
 <div align='center'>
-   <img src="img/loss (1).png" alt="loss_curve" align='center' width="500"/>
+   <img src="img/loss.png" alt="loss_curve" align='center' width="500"/>
 </div>
 
 ### Model
