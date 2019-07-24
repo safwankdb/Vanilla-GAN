@@ -39,3 +39,4 @@ model.eval()
 
 ### References
 1. **Ian Goodfellow, et al.** *Generative Adversarial Networks.* NIPS 2014 [[arxiv](https://arxiv.org/abs/1406.2661)]
+2. **Yann LeCun, et al.** *MNIST Database of Handwritten Digits* [[webpage](https://yann.lecun.com/exdb/mnist/)]
