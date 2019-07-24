@@ -9,17 +9,22 @@ PyTorch implementation of [Generative Adversarial Networks](https://arxiv.org/ab
 ### GAN Loss and training
 The training of the generator and discriminator networks is based on the following MiniMax game played between the two.
 
+
 <div align='center'>
    <img src="img/minmax.png" alt="minimax" align='center' width='600'/>
 </div>
 
+
 The training algorithm is described in the paper as below.
+
 
 <div align='center'>
    <img src="img/algo.png" alt="minimax" align='center' width='600'/>
 </div>
 
+
 Binary Cross Entropy loss was used to train both generator and discriminator. Generator was trained my maximising discriminators probability of being real on fake data instead of other way round, because as mentioned in the paper, it provides stronger gradients early.
+
 
 <div align='center'>
    <img src="img/loss.png" alt="loss_curve" align='center' width="500"/>
