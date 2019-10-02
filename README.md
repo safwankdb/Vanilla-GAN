@@ -3,7 +3,7 @@
 PyTorch implementation of [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) by Ian Goodfellow et al. on the MNIST dataset.
 
 <div align='center'>
-   <img src="img/progress.gif" alt="progress" align='center' width='240'/>
+   <img src="img/progress.gif" alt="progress" align='center' width='300'/>
 </div>
 
 ### GAN Loss and training
